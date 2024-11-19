@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    
+</head>
+<style>
+
+<style>
+#bar{
+  text-align: right;
+}
+
+#dark,#light
+{
+  background:black;
+  cursor:pointer;
+}
+
+#main1
+{
+width:100%;
+height:400px;
+backgrund:gray;
+margin-top: 10px;
+//position: fixed;
+
+}
+
+
+#main2
+{
+width:100%;
+flex-direction:rows;
+display:flex;
+}
+
+#main3
+{
+width:100%;
+flex-direction:rows;
+display:flex;
+}
+.card{
+ox-sizing:border-box;
+width:100%;
+height:540px;
+margin:50px;
+margin-left:40px;
+padding:13px;
+box-shadow:10px 10px 10px gray;
+border-radius:8px;
+text-align:center;
+font-size:10px;
+font-family:verdana;
+}
+
+.card img
+{
+width:100%;
+}
+
+#footer
+{
+width:100%;
+height:200px;
+padding:10px;
+color:white;
+background:black;
+clear:both;
+}
+#picon
+{
+backgrund:red;width:50px;margin-left:1550px;margin-top: 10px;
+}
+#top
+{
+   backgound-color: red;width:100%;height: 100px;
+}
+#top2
+{
+   backgund:red;width:100%;height:150px;
+}
+
+#best
+{
+   backgrond-color: brown; width:100%; height:50px;margin-bottom:90px;"
+}
+
+#d1
+{
+   backgrond:brown;
+   width:100%;
+   height:auto;
+   margin-bottom:90px;
+}
+
+
+
+#who
+{
+   backgrund-color: gray;
+   width:100%;
+   height:130px;
+}
+
+
+#rent
+{
+   backgond-color: gray;width:45%;height:500px;margin-left:886px;margin-top:-500px;box-shdow:1px 1px 1px gray;
+}
+
+#purchase
+{
+   backgrond-color: gray;width:45%;height:500px;
+}
+
+
+#latest
+{
+   background-clor: gray;width:100%;
+   height:auto;
+}
+
+#button
+{
+   text-align:center;
+}
+
+#bdiv
+{
+   background-color:#F5F5F5;
+   width:100%;
+   height:auto;
+   box-shadow:10px 10px 10px gray;margin-top:-90px;
+}
+
+#bdiv2
+{
+   background-color:#F5F5F5;
+   width:100%;
+   height:auto;
+   box-shadow:10px 10px 10px gray;margin-top:30px;
+}
+#client1
+{
+   background:#b3b6b7;
+   width:22%;
+   height:500px;
+   margin-left:100px;
+   box-shadow:8px 8px 8px gray;
+   border-radius:50px;
+}
+
+#client2
+{
+   background:hsl(195, 3%, 71%);
+   width:22%;
+   height:500px;
+   margin-left:620px;
+   margin-top:-500px;
+   box-shadow:8px 8px 8px gray;
+   border-radius:50px;
+}
+
+#client3
+{
+   background:#b3b6b7;
+   width:22%;
+   height:500px;
+   margin-left: 1150px;
+   margin-top:-500px;
+   box-shadow:8px 8px 8px gray;
+   border-radius:50px;
+   
+}
+*{
+box-sizing:border-box;
+}
+ol li{display:inline;padding:20px}
+
+
+
+
+
+</style>
+<body>
+   
+      
+
+   <a href="project.html"> <img src="images/lefticon.png" width="1%"></a>
+
+   <div id="bar"><button id="b1" onClick="f1()">Dark mode</button><button id="dark">🌙</button><button id="light">🔆</button></div>
+
+    <div id="picon">
+      <a href="form2.html"><img src="images/profileicon.png" width="30px" height="30px" style="box-shadow:3px 3px 3px gray;border-radius:100px;margin-right:20px;margin-bottom:6px;"></a>
+
+      <a href="form2.html"><img src="images/3dot.png" width="20px"height="40px" style="box-sadow:1px 1px 1px gray;border-radius:10px;margin-left:10px;"></a>
+    </div>
+
+    <div id="top">
+
+      <img src="images/real.png"width="130px"height="80px" style="box-shadow:3px 3px 3px gray;border-radius:80px;margin-left:0px;">
+
+      
+
+      <h1 style="color:black;font-size: 40px;margin-top:-85px;margin-left:150px;text-shadow:2px 2px 2px gray;">Dream</h1>
+      
+      <h1 style="color:#85c1e9;font-size: 40px;margin-top:-73px;margin-left:270px;text-shadow:2px 2px 2px black;">Property</h1>
+      
+      <h5 style="color:black;font-size:20px;margin-top:-18px;margin-left:150px;text-shdow:2px 2px 2px black;">Sale,Purchase,Collaboration & Renting</h5>
+
+     
+
+    </div>
+  
+   <div id="top2">
+    
+    
+    <h1 style="font-color:white;font-size:50px;font-family:Georgia;text-shadow:5px 5px 5px gray;margin-top:-70px;text-align:center;margin-left: 120px;"> Real Estate Website</h1> 
+    
+
+    
+
+
+   </div>
+
+    
+
+    <div id ="main1">
+
+<img src="images/b2.jpg" width="100%"height="auto;" style="box-shadow:5px 5px 5px gray;>
+
+
+      </div>
+      
+     
+   
+      <script>
+    var d = document.getElementById("dark")
+    var L = document.getElementById("light")
+    var m = document.createElement("span")
+    var b = document.getElementById("b1")
+    document.body.appendChild(m)
+     function f1()
+     {
+       if(document.body.style.background=="black")
+        {
+            b.innerHTML ="Dark Mode"
+        document.body.style="background:;color:;"
+          }
+          else
+          {
+            b.innerHTML ="Light Mode"
+             document.body.style="background:black;color:white;"
+          }
+
+     }
+    m.style="transition:0.50s;opacity:0;position:absolute;top:0px;left:0px;box-shadow:10px 10px 10px gray;padding:20px;background:yellow;border-radius:30px;"
+    m.innerHTML="Tool Tip"
+    d.onclick = function()
+    {
+    document.body.style="background:black;color:white;"
+    }
+
+    L.onclick = function()
+    {
+    document.body.style="background:;color:;"
+    }
+    d.onmouseover = function(e)
+    {
+     m.style.opacity=1
+     m.style.top = e.pageY+4+"px"
+     m.style.left = e.pageX-20+"px"
+     m.innerHTML ="Dark Mode"
+     document.title ="x = "+e.pageX+" y = "+e.pageY
+    }
+    d.onmouseout = function()
+    {
+     m.style.opacity=0
+    }
+    L.onmouseover = function(e)
+    {
+     m.style.opacity=1
+     m.style.top = e.pageY+4+"px"
+     m.style.left = e.pageX-20+"px"
+     m.innerHTML ="Light Mode"
+     document.title ="x = "+e.pageX+" y = "+e.pageY
+    }
+    L.onmouseout = function(e)
+    {
+     m.style.opacity=0
+        }
+
+    document.title ="Ready"
+      
+    </script>
+
+<div id="d1">
+
+<h1 style="font-size:70px;font-family:Georgia;color:white;text-shadow:2px 2px 2px black;margin-top:-770px;text-align:center;"> BUY,SALE & RENT </h1> 
+
+<h1 style="color:white;font-size:30px;font-family:cursive;text-shadow:2px 2px 2px black;text-align:center;margin-bottom:0px;"> List Your Houses & Apartments </h1></div>
+
+
+<div id="p8image">
+<img src="images/p8.jpg" width="400px"height="400px" style="box-shadow:2px 2px 2px gray;margin-right:60px;border-radius:400px;margin-left:1100px;"></div>
+
+<div id="best">
+<h1 style="color:black;font-size:80px;font-family:Georgia;text-shadow:2px 2px 2px black;text-align:center;margin-top:130px;"> Our Best Deals </h1><h3 style="color:rgb(195, 192, 188);font-family:Georgia;text-align: center;margin-bottom:-80px;">
+   Check out some of the latest and best properties published on our websites
+</h3></div>
+
+
+
+<div id="main2">
+
+  <!--         card        -->
+   
+  <div id="c1" class="card">
+  
+  <img src="images/b2.jpg" style="width:100%;">
+  <p><h1>Indepent Villa In Greator Noida </h1>
+   <br/> <br/>
+    <h3> Price: Rs 32,00,00,000/-</h3><br/> <br/>
+    <button><a href="registerform2.html">Buy </button></a>
+    <button><a href="share.html">Share</button></a>
+  </p>
+  </div>
+  
+  
+  
+  <!--         card        -->
+   
+  <div id="c1" class="card">
+  
+  <img src="images/b3.jpg">
+  <p><h1>Builder Floor Kailash-2</h1><br/> <br/>
+    <h3> Price: Rs 20,00,00,000/-</h3><br/> <br/>
+    <button><a href="registerform2.html">Buy </button></a>
+    <button><a href="share.html">Share</button></a> 
+  </p>
+  </div>
+  
+  
+  
+  <!--         card        -->
+   
+  <div id="c1" class="card">
+  
+  <img src="images/b5.jpg">
+  <p><h1>Builder Floor Greator Kailash-1</h1> <br/> <br/>
+     <h3>Price: Rs 15,00,00,000/-</h3><br/> <br/>
+     <button><a href="registerform2.html">Buy </button></a>
+     <button><a href="share.html">Share</button></a>
+  </p>
+  </div>
+  
+  
+  
+  </div>
+  
+  <div id="bdiv">
+
+   <div id="who">
+       
+   <h1 style="color:black;font-size:70px;font-family:Georgia;text-shadow:5px 5px 5px gray;text-align:center;margin-top:130px;"> Who we are </h1>
+   <h3 style="color:rgb(195, 192, 188);font-size:30px;text-align: center;margin-top:-40px;text-shadow:3px 3px 3px black;">Our Services </h3></div>
+
+   <div id="purchase">
+   <img src="images/home.png" width="150px;"height="120px;" style="margin-top: 90px;margin-left:350px;box-sadow:5px 5px 5px gray;">
+   <h2 style="color:black;font-size:30px;text-align: center;margin-top:-2px;text-shadow:3px 3px 3px gray;">Purchase Property </h2>
+   <h3 style="color:black;text-align: center;margin-top:-10px;text-sadow:3px 3px 3px black;">The best time to buy a home is always five years ago. </h3>
+   </div>
+
+
+   <div id="rent">
+   <img src="images/homeicon2.png" width="150px;"height="120px;" style="margin-top: 90px;margin-left: 320px;box-sadow:5px 5px 5px gray;">
+   <h2 style="color:black;font-size:30px;text-align: center;margin-top:-2px;text-shadow:3px 3px 3px gray;">Rent Property </h2>
+   <h3 style="color:black;text-align:center;margin-top:-10px;text-sadow:3px 3px 3px black;">Don't let anyone rent a space in your head, unless they are good tenant. </h3>
+   </div>
+
+<div id="latest">
+   <h1 style="color:black;
+   font-size:40px;text-align: center;margin-top:-2px;text-sadow:3px 3px 3px black;"> Our Latest Properties </h1>
+   <h3 style="color:rgb(195, 192, 188);font-family:Georgia;text-align: center;margin-top:-20px;
+   text-shadow:1px 1px 1px black;">
+      Check out some of the latest and best properties published on our websites
+   </h3>
+   <div id="button">
+   <button><a href="share2.html">South Delhi Apartments</button></a>
+    <button><a href="share3.html">North Delhi Apartments</button></a>
+    <button><a href="share4.html">East Delhi Apartments</button></a>
+    <button><a href="share5.html">West Delhi Apartments</button></a>
+</div>
+</div>
+
+<div id="main3">
+   
+<!--         card        -->
+   
+<div id="c1" class="card">
+
+<img src="images/b5.jpg">
+<p><h1>Builder Floor Greator Kailash-1</h1> <br/> <br/>
+      <h3>Price: Rs 15,00,00,000/-</h3><br/> <br/>
+<button><a href="registerform2.html">Buy </button></a>
+<button><a href="share.html">Share</button></a>
+</p>
+</div>
+
+
+<!--         card        -->
+ 
+<div id="c1" class="card">
+
+<img src="images/b4.jpg">
+<p><h1>Builder Floor Safdarjung Development Area</h1><br/> <br/>
+<h3>Price: Rs 16,00,00,000/-</h3><br/> <br/>
+<button><a href="registerform2.html">Buy </button></a>
+<button><a href="share.html">Share</button></a>
+</p>
+</div>
+
+
+
+<!--         card        -->
+ 
+<div id="c1" class="card">
+
+<img src="images/b5.jpg">
+<p><h1>Independent Villa</h1> <br/> <br/>
+   <h3>Price: Rs 55,00,00,000/-</h3><br/> <br/>
+   <button><a href="registerform2.html">Buy </button></a>
+   <button><a href="share.html">Share</button></a>
+
+
+</p>
+</div>
+
+</div>
+  <div id="bdiv2">
+<h1 style="color:black;
+   font-size:40px;text-align: center;margin-top:-2px;text-sadow:5px 5px 5px gray;"> Clients Testimonials </h1>
+   <h3 style="color:black;font-family:Georgia;text-align: center;margin-top:-20px;
+   text-shaow:1px 1px 1px black;">
+      What people say about us.
+   </h3>
+<div id="client1">
+   <img src="images/d1.png"width="130px"height="130px" style="box-shadow:3px 3px 3px gray;border-radius:150px;margin-left:120px;margin-top:60px;">
+   <img src="images/star.png"width="70px"height="30px" style="margin-left:150px;margin-bottom:-40px;">
+   <h2 style="text-align: center;margin-top: 50px;">Gautam Yaduvanshi</h2>
+   <h4 style="color:black;text-align: center;text-shadow:2px 2px 2px gray;margin-top:-20px;">Charter Accountant</h4>
+   <h5 style="color:black;text-align: center;text-align:justify;text-shadow:2px 2px 2px gray;margin-top:20px;padding-left:10px;padding-right:10px;">The Securities and Exchange Board of India (SEBI) has given its approval for the Real Estate Investment Trust (REIT) platform, which will allow all kind of investors to invest in the Indian real estate market.It would create an opportunity worth Rs. 1.25 trillion (US$ 19.65 billion) in the Indian market in the coming years.</h5>
+</div>
+
+<div id="client2">
+   <img src="images/d2.png"width="130px"height="130px" style="box-shadow:3px 3px 3px gray;border-radius:150px;margin-left:130px;margin-top:60px;">
+   <img src="images/star.png"width="70px"height="30px" style="margin-left:160px;margin-bottom:-40px;">
+   <h2 style="text-align: center;margin-top: 50px;">Nayak Singh Shrivastav</h2>
+   <h4 style="color:black;text-align: center;text-shadow:2px 2px 2px gray;margin-top:-20px;">Company Manager</h4>
+   <h5 style="color:black;text-align: center;text-shadow:2px 2px 2px gray;margin-top:20px;padding-left:10px;padding-right:10px;">Jerry, our professor, began his first lecture with a course overview. As he turned the page in his notes, he paused. He scratched his head, put his notes down, and gazed at eager faces as we stared at him like coy in a pond waiting to be fed to learn how we be graded. Of course, all of us being at the top of the class were trying to figure out how we get an A to maintain our top standing.</h5>
+</div>
+
+<div id="client3">
+   <img src="images/d3.png"width="130px"height="130px" style="box-shadow:3px 3px 3px gray;border-radius:150px;margin-left:150px;margin-top:60px;">
+   <img src="images/star.png"width="70px"height="30px" style="margin-left:180px;margin-bottom:-40px;">
+   <h2 style="text-align: center;margin-top: 50px;">Shiddarth Shukla</h2>
+   <h4 style="color:black;text-align: center;text-shadow:2px 2px 2px gray;margin-top:-20px;">Company Head</h4>
+   <h5 style="color:black;text-align: center;text-shadow:2px 2px 2px gray;margin-top:20px;padding-left:10px;padding-right:10px;">Professor Johnson started out by saying that he would apply the standard bell curve to our scores and that there would be 1 A given out, most everyone else would receive a B, some Cs, and there might be a D or 2. He didnot anticipate any Fs. Our eager and enthusiastic expressions quickly turned sour. Jaws dropped.</h5>
+</div>
+<h2 style="text-align: center;">© 2004-2024 hostinger.in - India #1 Web Hosting & Domains provider.</h2>
+</div> 
+
+
+<br/><a href="#top"> Go Top </a>
+  
+</body>
+</html>
